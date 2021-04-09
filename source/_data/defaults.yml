@@ -26,7 +26,7 @@ conference:
   title_pre: "Welcome to"
   title: "phpday Digital Edition"
   city: "online"
-  date: 2021-04-15T10:00+02:00
+  date: 2021-06-08T10:00+02:00
   countdown_visible: true
   countdown_days: "days"
   countdown_hours: "hours"
@@ -49,17 +49,15 @@ conference:
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2021-02-15T23:59+01:00
+  cfp_deadline: 2021-04-18T23:59+02:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "phpday 2020 is the 9th edition of the Italian Ruby conference, for the 3rd year in a row organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
-  <br> <br /> The event is international and all sessions will be in English.
-  <br> The event’s goal is to allow all Rubyists to meet and share experience while having fun and networking in an enjoyable context.
-  <br />
-  <br> Due to the current pandemic situation, the 2021 edition is taking place online."
+  geninfo_description: "phpday is the yearly gathering for the European PHP community, since 2003</a>.
+  <br> <br /> The event is international and all sessions will be in English. 2021 edition is taking place online, and will last 2 days (June 8th and 9th)
+  <br />"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -69,12 +67,12 @@ conference:
   newsletter_subtitle: "Subscribe to our newsletter"
   # fields taken from the Mail chimp default form -- set to `true` to add subscription
   newsletter_lists:
-    php: false
+    php: true
     javascript: false
     design: false
     devops: false
     frontend: false
-    ruby: true
+    ruby: false
     entrepreneurship: false
     local_events: false
     everything: false
@@ -97,12 +95,14 @@ conference:
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
   topics:
-    - "Ruby"
-    - "Ruby On Rails"
+    - "PHP"
+    - "Frameworks"
+    - "Continuous Delivery"
+    - "DevOps"
+    - "Internals"
     - "Security"
     - "Testing"
-    - "Continuous Integration"
-    - "API"
+    - "APIs"
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
@@ -124,7 +124,7 @@ conference:
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9"
+  youtube_playlist_id: "PLWK9j6ps_unnnmpaIjDuA_WVJIwWkj1Zv"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "6048109"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -144,9 +144,9 @@ conference:
   community_partners_title: "Community Partners"
   # this is for the Social links block
   social_follow: "Follow us on"
-  social_fb_url: "https://www.facebook.com/phpdayit/"
+  social_fb_url: "https://www.facebook.com/phpday/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/phpdayit"
+  social_twitter_url: "https://twitter.com/phpday"
   social_vimeo_url: "https://vimeo.com/grusp"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"

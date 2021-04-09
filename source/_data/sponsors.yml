@@ -14,21 +14,29 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# gold:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-# silver:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-# bronze:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+gold:
+  sponsor1:
+    name: "workwave"
+    logo_filename: "workwave.svg"
+    site_url: "https://www.workwave.com/"
+silver:
+  sponsor1:
+    name: "Facile.it"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
+  sponsor2:
+    name: "Madisoft"
+    logo_filename: "madisoft.svg"
+    site_url: "https://labs.madisoft.it"
+  sponsor3:
+    name: "OpenBox"
+    logo_filename: "openbox.svg"
+    site_url: "https://www.open-box.it"
+bronze:
+  sponsor1:
+    name: "stickermule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://mule.to/p1j5"
 #   sponsor2:
 #     name: ""
 #     logo_filename: ""
@@ -40,4 +48,4 @@ sponsors_block_title: ""
 
 # Partner configuration
 partner_tags:
-  - ruby
+  - php
