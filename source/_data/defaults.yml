@@ -13,7 +13,7 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://phpday-2021.eventbrite.com"
+  buy_tickets_url: "https://phpday-2021.eventbrite.it?utm_medium=web&utm_source=site&utm_campaign=2021"
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
