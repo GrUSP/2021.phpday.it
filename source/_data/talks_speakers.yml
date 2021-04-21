@@ -18,6 +18,13 @@ speaker_2: &keynote_speaker
   speaker_pic_filename: giulia.jpeg
   speaker_role: "speaker role (optional)"
   speaker_bio: "Example of a workshop host that must appear in speaker lists"
+speaker_3: &mc
+  speaker_in_speaker_lists: true
+  speaker_name: MC
+  speaker_pic_filename: giulia.jpeg
+  speaker_role: "speaker role (optional)"
+  speaker_bio: "Example of a workshop host that must appear in speaker lists"
+  is_mc: true
 
 tracks:
   track_1: &track_1
