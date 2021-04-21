@@ -4983,9 +4983,14 @@ header {
       padding: 20px;
       text-align: center;
       font-weight: 300; }
+      .speakers__container .inner_holder .speaker-card.speaker-card--mc {
+        background-color: #6683b9; }
+        .speakers__container .inner_holder .speaker-card.speaker-card--mc .card-content .subtitle, .speakers__container .inner_holder .speaker-card.speaker-card--mc .card-content p, .speakers__container .inner_holder .speaker-card.speaker-card--mc .card-content .title, .speakers__container .inner_holder .speaker-card.speaker-card--mc .card-content em {
+          color: #fff; }
       .speakers__container .inner_holder .speaker-card .card-content {
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        font-weight: initial; }
         .speakers__container .inner_holder .speaker-card .card-content .subtitle, .speakers__container .inner_holder .speaker-card .card-content p {
           font-size: .9em;
           margin: .5em 0 0; }
@@ -7630,7 +7635,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .title-container_schedule {
   text-align: center; }
   .title-container_schedule h1 {
-    text-transform: none; }
+    text-transform: capitalize; }
     .title-container_schedule h1.has-text-left {
       margin-bottom: 1em; }
     .title-container_schedule h1.is-centered {
@@ -7665,7 +7670,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         margin-top: -8em; }
     .timeline .info-bar svg path {
       fill: #fff; }
-  .timeline .talk-anchor {
+  .timeline .talk-anchor-pre {
     padding-top: 10em;
     margin-top: -10em; }
   .timeline table {
@@ -7698,6 +7703,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         .timeline table tr td span::after {
           content: ", "; }
         .timeline table tr td span:last-of-type::after {
+          content: ""; }
+        .timeline table tr td span.talk-anchor-pre::after {
           content: ""; }
       .timeline table tr td .track-title {
         font-weight: 600;
