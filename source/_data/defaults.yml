@@ -37,13 +37,13 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
   # "update" component. set the first parameter to true to make it appear in home page, false means hidden
-  update_visible: false
+  update_visible: true
   update_is_warning: false
-  update_warning_header: "Questo testo appare se l'update è impostato a *warning*. Potremmo sostituirlo con un'icona o altro 'segnale'"
-  update_title: "Important information"
-  update_description: "This is the description of such important information"
-  update_link_url: "https://google.com/"
-  update_link_label: "link to google, just for the demo"
+  update_warning_header: ""
+  update_title: "phpday elePHPant on sale"
+  update_description: "GrUSP is happy to present you Aida: the phpday elePHPant"
+  update_link_url: "https://shop.grusp.org/"
+  update_link_label: "Get yours!"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: true
   cfp_readmore_label: "Read more"
@@ -87,7 +87,7 @@ conference:
   newsletter_disclaimer: "We use Mailchimp as our email marketing platform. By subscribing to the newsletter, you accept that your data are transmitted to Mailchimp to be processed. "
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
-  # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden	
+  # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
   mcs_title: "MC"
   speakers_visible: false
   speakers_title: "speaker"
