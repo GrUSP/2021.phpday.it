@@ -41,7 +41,7 @@ conference:
   update_is_warning: false
   update_warning_header: ""
   update_title: "phpday elePHPant on sale"
-  update_description: "GrUSP is happy to present you Aida: the phpday elePHPant"
+  update_description: "GrUSP is happy to present you Aida: the phpday elePHPant. Get your ticket to receive a discount code for your elePHPant!"
   update_link_url: "https://shop.grusp.org/product/aida-phpday-elephpant/"
   update_link_label: "Get yours!"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
