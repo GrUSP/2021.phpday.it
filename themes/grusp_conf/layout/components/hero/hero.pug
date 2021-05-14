@@ -24,7 +24,9 @@ section(id="hero").section_nopadding
             include ../../../source/assets/ico/ico-calendar.svg
 
             - var start_date = ""
-            if(site.data.defaults.conference.is_online_only === true)
+            if(site.data.defaults.conference.hero_date_text)
+              - start_date = site.data.defaults.conference.hero_date_text
+            else if(site.data.defaults.conference.is_online_only === true)
               - start_date = date(site.data.defaults.conference.date, config.date_format_hero_online)
             else
               - start_date = date(site.data.defaults.conference.date, config.date_format_hero)
