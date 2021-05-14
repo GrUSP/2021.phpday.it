@@ -41,7 +41,9 @@ block content
 
                   .info__date 
                     - var start_date = ""
-                    if(site.data.defaults.conference.is_online_only === true)
+                    if(ws.date_text)
+                      - start_date = ws.date_text
+                    else if(site.data.defaults.conference.is_online_only === true)
                       - start_date = date(ws.date, config.date_format_hero_online)
                     else
                       - start_date = date(ws.date, config.date_format_hero)

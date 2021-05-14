@@ -39,7 +39,9 @@ section(id="workshop").section_nopadding
             .info__date
 
               - var start_date = ""
-              if(site.data.defaults.conference.is_online_only === true)
+              if(workshop.date_text)
+                - start_date = workshop.date_text
+              else if(site.data.defaults.conference.is_online_only === true)
                 - start_date = date(workshop.date, config.date_format_hero_online)
               else
                 - start_date = date(workshop.date, config.date_format_hero)
