@@ -246,7 +246,7 @@ days:
         track: *track_1
         start_datetime:
         end_datetime:
-        talk_title: "PHP <3 types"
+        talk_title: "PHP ❤️ types"
         talk_description: "PHP is widely known for its dynamic typing features. Still in its latest releases it introduced many features for improving the typing of our applications and many are already planned for future versions. Yet, comparing for example with what Typescript provides for the Javascript ecosystem, many relevant features are still missing from the language. Luckily, in PHP we can emulate features like union types and generics using libraries like Psalm or PHPStan. In this talk we will see how we can use the type system provided by such tools not only to prevent bugs, but also to help us modelling our domain making its invariants explicit in the type system itself. If you are interested in creating safe and reliable software, let's see together how types can help you!"
         talk_video_url:
         speakers:
