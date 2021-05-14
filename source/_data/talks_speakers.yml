@@ -88,7 +88,7 @@ speaker_10: &enrico
   speaker_name: Enrico Zimuel
   speaker_pic_filename: enrico-zimuel.jpeg
   speaker_role: "Principal Software Engineer @ Elastic"
-  speaker_bio: ""
+  speaker_bio: "has been a programmer since 1996. Principal Software Engineer at Elastic is the maintainer of PHP and Perl libraries. Open source contributor and co-author of many PHP projects: Apigility, Expressive, Zend Framework, etc. TEDx and international speaker in 100+ conferences. Author of programming books, such as 'Sviluppare in PHP 7' by Tecniche nuove. Professor at ITS ICT Piemonte of Torino (Italy). For more information <a href='https://www.zimuel.it'>zimuel.it.</a>"
   speaker_twitter_url: "https://twitter.com/ezimuel"
 speaker_11: &gary
   speaker_in_speaker_lists: true
@@ -257,7 +257,7 @@ days:
         start_datetime:
         end_datetime:
         talk_title: "What's new in PHP 8.1"
-        talk_description: ""
+        talk_description: "During this presentation, we are going to look at the new features that are going to be introduced in PHP 8.1. Join me to have a look at how the type system is strengthened with Enumerations and 'never', Fibers, a new closure syntax, and other new smaller features. At the end you will have a good understand about all the new and exciting features that are likely going to be part of the PHP 8.1 release."
         speakers:
           speaker_1: *derick
       talk_12:
@@ -296,7 +296,7 @@ days:
         start_datetime:
         end_datetime:
         talk_title: "Programming Elasticsearch with PHP"
-        talk_description: "In this presentation we will show how to use the [Elasticsearch client for PHP](https://github.com/elastic/elasticsearch-php). We will give a (very) short introduction to [Elasticsearch](https://github.com/elastic/elasticsearch) and why it can be useful for PHP developers. We will present how to connect to Elasticsearch using a self-managed environment or using Elastic Cloud; how to index, bulk, search and aggregate data; how to use advanced features, like the [fuzzy query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-fuzzy-query.html), [highlighting](https://www.elastic.co/guide/en/elasticsearch/reference/current/highlighting.html), etc."
+        talk_description: "In this presentation, we will show how to use Elasticsearch with PHP. We will give a short introduction to Elasticsearch showing how PHP developers can benefit from its usage. We will present how to connect to Elasticsearch, how to index data, how to search and aggregate information. We will also present some advanced features, such as fuzzy search, highlighting and the recent schema on read available from Elasticsearch 7.12."
         talk_video_url:
         speakers:
           speaker_1: *enrico
