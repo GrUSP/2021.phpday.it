@@ -19,11 +19,11 @@ gold:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-silver:
   sponsor1:
     name: "Facile.it"
     logo_filename: "facile.svg"
     site_url: "https://www.facile.it/"
+silver:
   sponsor2:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
