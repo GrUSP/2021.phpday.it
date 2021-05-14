@@ -181,7 +181,7 @@ days:
       #   talk_video_url:
       #   speakers:
       #     speaker_1: *regular_speaker
-      talk_5:
+      arne-phpunit10:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -191,7 +191,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *arne
-      talk_6:
+      anna-legacy:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -201,17 +201,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *anna
-#      talk_7:
-#        item_type: "talk"
-#        track: *track_1
-#        start_datetime:
-#        end_datetime:
-#        talk_title: "Never* use arrays"
-#        talk_description: "PHP loves its arrays. Arrays are the uber-data structure. They're a list, a map, a stack, a queue, everything in one! Which is the problem. Modern PHP grossly over-uses arrays. In most cases there are better options today, and when you find yourself reaching for "oh I'll just make this an associative array", stop. An extra 60 seconds of thought and code will often give you a more readable, faster, more memory-efficient, more flexible alternative. Classes, iterables, and collections can and should replace arrays in most of your day to day coding. This talk will go through what PHP arrays actually are (hint: they are not, in fact, arrays at all), why they're so problematic, and what to do instead. By the end, you should find yourself (almost) never reaching for arrays to solve a problem."
-#        talk_video_url:
-#        speakers:
-#          speaker_1: *larry
-      talk_7:
+      stefan-open-source:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -221,7 +211,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *stefan
-      talk_8:
+      alexander-security:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -231,7 +221,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *alexander
-      talk_9:
+      lorna-timeseries-db:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -241,7 +231,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *lorna
-      talk_10:
+      marco-loves-types:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -251,7 +241,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *marco
-      talk_11:
+      derick-eight-one:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -260,7 +250,7 @@ days:
         talk_description: "During this presentation, we are going to look at the new features that are going to be introduced in PHP 8.1. Join me to have a look at how the type system is strengthened with Enumerations and 'never', Fibers, a new closure syntax, and other new smaller features. At the end you will have a good understand about all the new and exciting features that are likely going to be part of the PHP 8.1 release."
         speakers:
           speaker_1: *derick
-      talk_12:
+      christoph-debugging:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -270,7 +260,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *christoph
-      talk_13:
+      damien-elephpant:
         item_type: "talk"
         track: *track_1
         start_datetime:
@@ -280,17 +270,7 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *damien
-#      talk_15:
-#        item_type: "talk"
-#        track: *track_1
-#        start_datetime:
-#        end_datetime:
-#        talk_title: "Communication - the Crucial Key to Success in Uncertainty"
-#        talk_description: "Today we all live, work and strive for success - in a world full of uncertainty, the VUCA world. As things around us are changing ever faster, we do not have time to waste with lots of misunderstandings caused by poor or insufficient communication and lack information flow . This applies to managers and leaders as well as employees, to developers as well as operations or support. Communication comes into play long before a project even starts and is the crucial key to success along the whole value stream - within the teams, the companies and also with externals. All agile methods, frameworks and methodologies will only work well with the right communication. This talk will not only show which impact poor communication has on motivation, on solutions and on success; it will also show the importance of good communication for business agility. Furthermore you will learn about helpful techniques for better communication and more shared understanding. Even if you need more communication in some companies, it is better to pay attention to more quality in it. Believe it or not, this will save time in the end! So if you want to be successful in the uncertainty of a fast changing world, take a closer look on your communication habits and start to improve for being better!"
-#        talk_video_url:
-#        speakers:
-#          speaker_1: *sabine
-      talk_15:
+      enrico-elasticsearch:
         item_type: "talk"
         track: *track_1
         start_datetime:
