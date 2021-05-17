@@ -20,77 +20,77 @@ speaker_2: &anna
   speaker_bio: "has been a developer since 1997. She likes robust architectures, automated testing, eliminating process waste and celebrating the success of others. She has a knack for breathing new life into legacy code and teaching developers of all levels."
   speaker_github_url:
   speaker_twitter_url: "https://twitter.com/afilina"
-#speaker_3: &larry
-#  speaker_in_speaker_lists: true
-#  speaker_name: Larry Garfield
-#  speaker_pic_filename: larry-garfield.jpeg
-#  speaker_role: ""
-#  speaker_bio: "is an aspiring blacksmith who moonlights as a long-time PHP developer. When not trying to hand-forge his own medieval armory from scratch he tries to teach developers and development managers the skills of yesteryear that the industry has forgotten. He is the author of several books on PHP, including 'Thinking Functionally in PHP' and 'Exploring PHP 8.0.'"
-#  speaker_twitter_url: "https://twitter.com/Crell"
-speaker_3: &stefan
+speaker_3: &larry
+  speaker_in_speaker_lists: true
+  speaker_name: Larry Garfield
+  speaker_pic_filename: larry-garfield.jpeg
+  speaker_role: "Staff Engineer"
+  speaker_bio: "is an aspiring blacksmith who moonlights as a long-time PHP developer. When not trying to hand-forge his own medieval armory from scratch he tries to teach developers and development managers the skills of yesteryear that the industry has forgotten. He is the author of several books on PHP, including 'Thinking Functionally in PHP' and 'Exploring PHP 8.0.'"
+  speaker_twitter_url: "https://twitter.com/Crell"
+speaker_4: &stefan
   speaker_in_speaker_lists: true
   speaker_name: Stefan Koopmanschap
   speaker_pic_filename: stefan-koopmanschap.jpeg
   speaker_role: "Co-owner @ Ingewikkeld"
   speaker_bio: "Between having a family life, doing a weekly radio show and attending conferences and user group meetings, Stefan tries running a company called Ingewikkeld and organizing WeCamp. Having worked with PHP and several of its open source products since the late 90s, he still likes it for getting the job done."
   speaker_twitter_url: "https://twitter.com/skoop"
-speaker_4: &alexander
+speaker_5: &alexander
   speaker_in_speaker_lists: true
   speaker_name: Alexander Makarov
   speaker_pic_filename: alexander-makarov.jpeg
   speaker_role: "Project lead, Yii framework"
   speaker_bio: "Yii framework lead and co-author of Yii 2. Yii representative in PHP-FIG. Additionally to developing Yii framework worked in companies such as Skyeng, Wrike and Stay.com and battle-tested whole generations of various technologies."
   speaker_twitter_url: "https://twitter.com/sam_dark"
-speaker_5: &lorna
+speaker_6: &lorna
   speaker_in_speaker_lists: true
   speaker_name: Lorna Mitchell
   speaker_pic_filename: lorna-mitchell.jpeg
   speaker_role: "Developer Advocate @ Aiven"
   speaker_bio: "is based in Yorkshire, UK; she is a Developer Advocate at Aiven as well as a published author and experienced conference speaker. She brings her technical expertise on a range of topics to audiences all over the world with her writing and speaking engagements. Lorna has a strong background in open source, and a passion is for better Developer Experiences for developers everywhere. You can find out more about Lorna on her website https://lornajane.net."
   speaker_twitter_url: "https://twitter.com/lornajane"
-speaker_6: &marco
+speaker_7: &marco
   speaker_in_speaker_lists: true
   speaker_name: Marco Perone
   speaker_pic_filename: marco-perone.png
   speaker_role: "Software Developer @ Soisy"
   speaker_bio: "I am a software developer, grew up as a mathematician. I love to bring in my code the same formalism and precision you can find in math. I am particularly interested in functional programming and how to introduce and apply its ideas in non-functional languages and its links with domain modelling."
   speaker_twitter_url: "https://twitter.com/marcoshuttle"
-speaker_7: &derick
+speaker_8: &derick
   speaker_in_speaker_lists: true
   speaker_name: Derick Rethans
   speaker_pic_filename: derick-rethans.jpeg
   speaker_role: "Xdebug Author"
   speaker_bio: "is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He works as an independent contractor and consultant on PHP extensions and related projects, including Xdebug."
   speaker_twitter_url: "https://twitter.com/derickr"
-speaker_8: &christoph
+speaker_9: &christoph
   speaker_in_speaker_lists: true
   speaker_name: Christoph Rumpel
   speaker_pic_filename: christoph-rumpel.jpeg
   speaker_role: "One-Man-Show @ Christoph Rumpel"
   speaker_bio: "is a web developer from Vienna. For the last eight years, he has been working as a backend developer using PHP and Laravel daily. Since 2018 Christoph is operating on his own as a freelancer, consultant, and teacher. Next, to his first ebook about building chatbots in PHP, he is also the author of Laravel Core Adventures and the Mastering PhpStorm video course. Christoph loves coding, teaching, surfing, bouldering, and his Nintendo Switch."
   speaker_twitter_url: "https://twitter.com/christophrumpel"
-speaker_9: &damien
+speaker_10: &damien
   speaker_in_speaker_lists: true
   speaker_name: Damien Seguy
   speaker_pic_filename: damien-seguy.jpeg
   speaker_role: "CTO @ exakat"
   speaker_bio: "is CTO at Exakat Ltd., a company specializing in PHP code quality solutions for the industry. He leads the development of the exakat static auditing, that review code for migration, security and clear code. Over the last 15 years Damien has contributed to the PHP, as documentation author, elephpant raisers, User group animator on several continents. He also enjoys gremlin, 狮子头 and camembert."
   speaker_twitter_url: "https://twitter.com/exakat"
-#speaker_10: &sabine
-#  speaker_in_speaker_lists: true
-#  speaker_name: Sabine Wojcieszak
-#  speaker_pic_filename: sabine-wojcieszak.png
-#  speaker_role: "Agile and DevOps Enabler at getNext IT"
-#  speaker_bio: ""
-#  speaker_twitter_url: ""
-speaker_10: &enrico
+speaker_11: &sabine
+  speaker_in_speaker_lists: true
+  speaker_name: Sabine Wojcieszak
+  speaker_pic_filename: sabine-wojcieszak.png
+  speaker_role: "Enthusiastic Agile & DevOps Enabler @ getNext IT"
+  speaker_bio: "is passionate about human interaction, team culture, leadership and communication. For her it is somehow natural to work and think in an agile and cross-disciplinary way. That's why she is assertor of the DevOps methodology. As the Enthusiastic Agile & DevOps Enabler at getNext IT she is an expert in supporting companies and teams - especially in tech industry - to evolve their soft and social skills in order to foster collaboration for more quality and success. For her motivated people are a necessity for companies to stay competitive! Communication is crucial for success - individual as well as organizational. You will find a lot of her work as an author all over the web and in printings. She has spoken at a lot of international tech conference about those 'soft' topics. Sabine is also one of the organisers of the DevOpsDays Kiel 2016 and 2018 and the co-organiser of the meetups Lean/Agile and Software Craftsmanship in Kiel. As community manager she helps the open source research project 'titan - the Industrial DevOps Platform for agile process integration and automation' to grow. Sabine is lecturer at a University in the fields of DevOps, Working in Open Source and Agile Project Management. Her 'eat your own dogfood' approach is seen as innovativ by others."
+  speaker_twitter_url: "https://twitter.com/SabineBendixen"
+speaker_12: &enrico
   speaker_in_speaker_lists: true
   speaker_name: Enrico Zimuel
   speaker_pic_filename: enrico-zimuel.jpeg
   speaker_role: "Principal Software Engineer @ Elastic"
   speaker_bio: "has been a programmer since 1996. Principal Software Engineer at Elastic is the maintainer of PHP and Perl libraries. Open source contributor and co-author of many PHP projects: Apigility, Expressive, Zend Framework, etc. TEDx and international speaker in 100+ conferences. Author of programming books, such as 'Sviluppare in PHP 7' by Tecniche nuove. Professor at ITS ICT Piemonte of Torino (Italy). For more information <a href='https://www.zimuel.it'>zimuel.it.</a>"
   speaker_twitter_url: "https://twitter.com/ezimuel"
-speaker_11: &gary
+speaker_13: &gary
   speaker_in_speaker_lists: true
   speaker_name: Gary Hockin
   speaker_pic_filename: gary-hockin.jpg
@@ -98,7 +98,7 @@ speaker_11: &gary
   speaker_bio: ""
   speaker_twitter_url: "https://twitter.com/GeeH"
   is_mc: true
-speaker_12: &alessandro
+speaker_14: &alessandro
   speaker_in_speaker_lists: true
   speaker_name: Alessandro Lai
   speaker_pic_filename: alessandro-lai.png
@@ -110,18 +110,18 @@ speaker_12: &alessandro
 speakers:
   speaker_1: *arne
   speaker_2: *anna
-#  speaker_3: *larry
-  speaker_3: *stefan
-  speaker_4: *alexander
-  speaker_5: *lorna
-  speaker_6: *marco
-  speaker_7: *derick
-  speaker_8: *christoph
-  speaker_9: *damien
-#  speaker_11: *sabine
-  speaker_10: *enrico
-  speaker_11: *gary
-  speaker_12: *alessandro
+  speaker_3: *larry
+  speaker_4: *stefan
+  speaker_5: *alexander
+  speaker_6: *lorna
+  speaker_7: *marco
+  speaker_8: *derick
+  speaker_9: *christoph
+  speaker_10: *damien
+  speaker_11: *sabine
+  speaker_12: *enrico
+  speaker_13: *gary
+  speaker_14: *alessandro
 
 tracks:
   track_1: &track_1
@@ -211,6 +211,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *stefan
+      larry-arrays:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Never* use arrays"
+        talk_description: "PHP loves its arrays. Arrays are the uber-data structure. They're a list, a map, a stack, a queue, everything in one! Which is the problem. Modern PHP grossly over-uses arrays. In most cases there are better options today, and when you find yourself reaching for 'oh I'll just make this an associative array', stop. An extra 60 seconds of thought and code will often give you a more readable, faster, more memory-efficient, more flexible alternative. Classes, iterables, and collections can and should replace arrays in most of your day to day coding. This talk will go through what PHP arrays actually are (hint: they are not, in fact, arrays at all), why they're so problematic, and what to do instead. By the end, you should find yourself (almost) never reaching for arrays to solve a problem."
+        talk_video_url:
+        speakers:
+          speaker_1: *larry
       alexander-security:
         item_type: "talk"
         track: *track_1
@@ -270,6 +280,16 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *damien
+      sabine-communication:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Communication - the Crucial Key to Success in Uncertainty"
+        talk_description: "Today we all live, work and strive for success - in a world full of uncertainty, the VUCA world. As things around us are changing ever faster, we do not have time to waste with lots of misunderstandings caused by poor or insufficient communication and lack information flow. This applies to managers and leaders as well as employees, to developers as well as operations or support. Communication comes into play long before a project even starts and is the crucial key to success along the whole value stream - within the teams, the companies and also with externals. All agile methods, frameworks and methodologies will only work well with the right communication. This talk will not only show which impact poor communication has on motivation, on solutions and on success; it will also show the importance of good communication for business agility. Furthermore you will learn about helpful techniques for better communication and more shared understanding. Even if you need more communication in some companies, it is better to pay attention to more quality in it. Believe it or not, this will save time in the end! So if you want to be successful in the uncertainty of a fast changing world, take a closer look on your communication habits and start to improve for being better!"
+        talk_video_url:
+        speakers:
+          speaker_1: *sabine
       enrico-elasticsearch:
         item_type: "talk"
         track: *track_1
