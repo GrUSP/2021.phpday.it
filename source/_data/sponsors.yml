@@ -34,6 +34,14 @@ silver:
     site_url: "https://www.open-box.it"
 bronze:
   sponsor1:
+    name: "elastic"
+    logo_filename: "elastic.svg"
+    site_url: "https://www.elastic.co/"
+  sponsor2:
+    name: "soisy"
+    logo_filename: "soisy.svg"
+    site_url: "https://www.soisy.it/"
+  sponsor3:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
