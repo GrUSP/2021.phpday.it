@@ -34,14 +34,26 @@ silver:
     site_url: "https://www.open-box.it"
 bronze:
   sponsor1:
+    name: "aiven"
+    logo_filename: "aiven.svg"
+    site_url: "https://aiven.io"
+  sponsor2:
     name: "elastic"
     logo_filename: "elastic.svg"
     site_url: "https://www.elastic.co/"
-  sponsor2:
+  sponsor3:
+    name: "getNextIT"
+    logo_filename: "getnextit.svg"
+    site_url: "https://www.getnext-it.com/en/"
+  sponsor4:
+    name: "Ingewikkeld"
+    logo_filename: "Ingewikkeld.svg"
+    site_url: "https://ingewikkeld.dev/"
+  sponsor5:
     name: "soisy"
     logo_filename: "soisy.svg"
     site_url: "https://www.soisy.it/"
-  sponsor3:
+  sponsor6:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
