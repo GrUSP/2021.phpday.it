@@ -57,6 +57,10 @@ bronze:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
+  sponsor7:
+    name: "xdebug"
+    logo_filename: "xdebug.png"
+    site_url: "https://xdebug.cloud/"
 #   sponsor2:
 #     name: ""
 #     logo_filename: ""
