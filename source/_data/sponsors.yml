@@ -58,6 +58,10 @@ bronze:
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
   sponsor7:
+    name: "ThePHP"
+    logo_filename: "thephp.png"
+    site_url: "https://thephp.cc"
+  sponsor8:
     name: "xdebug"
     logo_filename: "xdebug.png"
     site_url: "https://xdebug.cloud/"
